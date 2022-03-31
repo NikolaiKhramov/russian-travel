@@ -1,0 +1,34 @@
+.place__paragraphs {
+  max-width: 484px;
+  margin-left: 40px;
+  margin-top: 48px;
+}
+
+@media (max-width: 1024px) {
+  .place__paragraphs {
+    width: calc(50% - 8px);
+    max-width: 456px;
+    margin-left: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__paragraphs {
+    max-width: 352px;
+    margin-left: 28px;
+  }
+}
+
+@media (max-width: 585px) {
+  .place__paragraphs {
+    width: 100%;
+    max-width: none;
+    margin: 32px auto 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .place__paragraphs {
+    width: calc(100% - (16px*2));
+  }
+}

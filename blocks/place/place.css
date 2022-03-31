@@ -1,0 +1,28 @@
+.place {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.place:not(:first-of-type) {
+  margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+  .place:not(:first-of-type) {
+    margin-top: 73px;
+  }
+}
+
+@media (max-width: 585px) {
+  .place {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  .place:not(:first-of-type) {
+    margin-top: 50px;
+  }
+}

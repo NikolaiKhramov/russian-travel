@@ -1,0 +1,36 @@
+.place__website {
+  width: 456px;
+  margin-left: 40px;
+  margin-right: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media (max-width: 1024px) {
+  .place__website {
+    width: calc(50% - 8px);
+    margin-left: 32px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__website {
+    margin-left: 28px;
+  }
+}
+
+@media (max-width: 585px) {
+  .place__website {
+    width: 100%;
+    margin: 32px 0 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .place__website {
+    width: calc(100% - (16px*2));
+    margin: 32px auto 0;
+  }
+}
