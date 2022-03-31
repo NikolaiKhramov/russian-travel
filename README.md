@@ -15,4 +15,4 @@
 
 **Ссылка**
 
-[Путешествие по России](https://github.com/NikolaiKhramov/russian-travel/index.html)
+[Путешествие по России](https://nikolaikhramov.github.io/russian-travel/index.html)
