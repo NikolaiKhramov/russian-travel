@@ -14,10 +14,21 @@
   }
 }
 
-@media (max-width: 705px) {
+@media (max-width: 735px) {
   .lead__title {
-    font-size: 54px;
-    line-height: 1.1;
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 620px) {
+  .lead__title {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 510px) {
+  .lead__title {
+    font-size: 48px;
   }
 }
 
@@ -25,5 +36,6 @@
   .lead__title {
     width: calc(100% - (16px*2));
     font-size: 40px;
+    line-height: 1.1;
   }
 }
